@@ -1,0 +1,15 @@
+body {
+  font-family: "Dancing Script", cursive;
+  max-width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  /* text-align: center; */
+  background-color: bisque;
+}
+h2 {
+  font-size: 60px;
+}
+p {
+  font-size: 30px;
+  margin-bottom: 140px;
+}
