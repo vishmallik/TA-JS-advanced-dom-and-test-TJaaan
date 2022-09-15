@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.fa-solid {
+  font-size: 50px;
+  margin-top: 20px;
+}
+.container {
+  max-width: 50%;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+li {
+  list-style: none;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  cursor: move;
+}
+.over {
+  border: 3px dotted #666 !important;
+}
+.text-root {
+  margin-top: 200px;
+  li {
+    border: none;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    // border: 3px dotted #666;
+  }
+}
+.wrong {
+  border: 1px solid red !important;
+}
